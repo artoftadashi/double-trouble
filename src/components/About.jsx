@@ -23,10 +23,10 @@ export default function About() {
       </div>
       <div className="w-[60vw] bg-white border-b-[3px] border-[#01121A] flex justify-center py-24 px-24">
         <div className="flex flex-col gap-12 text-left justify-start">
-          <h1 className="text-6xl font-semibold w-3/5">
+          <h1 className="text-6xl font-semibold w-4/6">
             What’s better than one? Two!
           </h1>
-          <p className="text-2xl font-geist">
+          <p className="text-[24px] font-geist">
             Whether it's your partner, best friend, or sibling, Double Trouble
             is the perfect event to team up and have fun! With exciting
             activities and a chance to discover new dynamics, it's an experience

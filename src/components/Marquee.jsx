@@ -16,6 +16,20 @@ const Marquee = () => {
       image: "/images/lightening.svg",
       text: "• come with your crush •",
     },
+    { id: 1, image: "/images/heart.svg", text: "•  come with your babe  •" },
+    { id: 2, image: "/images/shine.svg", text: "•  come with your bff  •" },
+    { id: 3, image: "/images/rainbow.svg", text: "•  come with your bro  •" },
+    { id: 4, image: "/images/Music.svg", text: "•  come with your boo  •" },
+    {
+      id: 5,
+      image: "/images/camera.svg",
+      text: "• come with your sneaky link •",
+    },
+    {
+      id: 6,
+      image: "/images/lightening.svg",
+      text: "• come with your crush •",
+    },
   ];
 
   return (

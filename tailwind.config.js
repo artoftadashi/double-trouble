@@ -7,12 +7,12 @@ export default {
         geist: ["Geist", "sans-serif"],
       },
       animation: {
-        marquee: "marquee 10s linear infinite alternate",
+        marquee: "marquee 5s linear infinite alternate",
       },
       keyframes: {
         marquee: {
           "0%": {
-            transform: "translateX(100%)",
+            transform: "translateX(0%)",
           },
           "100%": {
             transform: "translateX(-100%)",

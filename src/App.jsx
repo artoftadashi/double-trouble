@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Highlights from "./components/Highlights";
 import Marquee from "./components/Marquee";
+import SneakPeak from "./components/SneakPeak";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Marquee />
       <About />
       <Highlights />
+      <SneakPeak />
     </>
   );
 }

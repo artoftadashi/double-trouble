@@ -11,8 +11,8 @@ export default function Hero() {
         />
         <img
           alt="double trouble"
-          src="/images/double-trouble.svg"
-          className="z-20"
+          src="/images/logo.png"
+          className="z-20 w-[60vw]"
         />
         <div className="flex gap-4 pt-16">
           <Button text="buy your ticket" />

@@ -7,7 +7,7 @@ export default {
         geist: ["Geist", "sans-serif"],
       },
       animation: {
-        marquee: "marquee 5s linear infinite alternate",
+        marquee: "marquee 7s linear infinite alternate",
       },
       keyframes: {
         marquee: {

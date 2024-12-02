@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Faq from "./components/Faq";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -21,6 +22,7 @@ function App() {
       <Sponsors />
       <Faq />
       <Marquee />
+      <Contact />
     </>
   );
 }

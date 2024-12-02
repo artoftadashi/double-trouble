@@ -12,7 +12,7 @@ export default function Sponsors() {
 
   return (
     <section className="bg-[#9ddcf9] flex flex-col justify-center items-center py-32 gap-32">
-      <h1 className=" text-5xl font-semibold text-center">
+      <h1 className=" text-5xl font-semibold font-serif text-center">
         Join Our League Of Sponsors
       </h1>
       <div className="flex flex-col gap-32 justify-center items-center">

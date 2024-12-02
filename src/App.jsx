@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Faq from "./components/Faq";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Highlights from "./components/Highlights";
@@ -18,6 +19,8 @@ function App() {
       <Highlights />
       <SneakPeak />
       <Sponsors />
+      <Faq />
+      <Marquee />
     </>
   );
 }

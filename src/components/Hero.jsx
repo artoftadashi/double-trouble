@@ -1,6 +1,7 @@
 import Button from "./Button";
 
 export default function Hero() {
+  //test
   return (
     <section className=" pb-32 pt-8 relative">
       <div className="flex flex-col justify-center items-center gap-12 lg:gap-8 z-20">

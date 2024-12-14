@@ -8,7 +8,7 @@ export default function Hero() {
         <img
           alt="zikoko x smirnoff"
           src="/images/zikoko-x-smirmoff.svg"
-          className="z-20 w-[50%] lg:w-[35%]"
+          className="z-20 w-[40%] lg:w-[15%]"
         />
         <img
           alt="double trouble"

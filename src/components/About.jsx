@@ -21,7 +21,7 @@ export default function About() {
           </div>
         ))}
       </div>
-      <div className="lg:w-[60vw] w-full bg-white border-b-[3px] border-[#01121A] flex justify-center py-24 lg:px-24 px-12">
+      <div className="lg:w-[60vw] w-full bg-white border-b-[3px] border-[#01121A] flex justify-center lg:p-24 p-12">
         <div className="flex flex-col gap-12 text-left justify-start">
           <h1 className="text-3xl lg:text-6xl font-semibold lg:w-4/6 w-full">
             What’s better than one? Two!

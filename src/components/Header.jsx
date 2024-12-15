@@ -4,18 +4,14 @@ export default function Header() {
   const elipse = "w-[6px] h-[6px] rounded-full bg-[#01121A]";
 
   const [isOpen, setIsOpen] = useState(false);
-  const [isClosing, setIsClosing] = useState(false);
 
   const handleOpen = () => {
     setIsOpen(true);
-    setIsClosing(false);
   };
   const handleClose = () => {
-    setIsClosing(true); // Start the reverse animation
     setTimeout(() => {
       setIsOpen(false); // Close the menu after the animation
-      setIsClosing(false); // Reset the closing state
-    }, 500); // Match this to the duration of your reverse animation
+    }, 500);
   };
   useEffect(() => {
     if (isOpen) {

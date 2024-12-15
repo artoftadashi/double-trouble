@@ -9,8 +9,8 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="flex ">
-      <div className="w-[40vw] grid grid-cols-2">
+    <section id="about" className="flex lg:flex-row flex-col ">
+      <div className="lg:w-[40vw] w-full grid grid-cols-2">
         {aboutImages.map((content) => (
           <div
             key={content.id}
@@ -21,9 +21,9 @@ export default function About() {
           </div>
         ))}
       </div>
-      <div className="w-[60vw] bg-white border-b-[3px] border-[#01121A] flex justify-center py-24 px-24">
+      <div className="lg:w-[60vw] w-full bg-white border-b-[3px] border-[#01121A] flex justify-center py-24 lg:px-24 px-12">
         <div className="flex flex-col gap-12 text-left justify-start">
-          <h1 className="text-6xl font-semibold w-4/6">
+          <h1 className="text-6xl font-semibold lg:w-4/6 w-full">
             What’s better than one? Two!
           </h1>
           <p className="text-[24px] font-geist">

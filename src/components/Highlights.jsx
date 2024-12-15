@@ -35,13 +35,15 @@ const Highlights = () => {
   ];
 
   return (
-    <section className="relative p-24 flex flex-col  justify-center items-center gap-12 bg-[#FFF4D0]">
-      <h1 className=" text-6xl font-semibold mb-24">Activity Highlights</h1>
+    <section className="relative p-12 lg:p-24 flex flex-col  justify-center items-center gap-12 bg-[#FFF4D0]">
+      <h1 className=" text-4xl lg:text-6xl font-semibold mb-24">
+        Activity Highlights
+      </h1>
       <ul className="flex flex-wrap gap-16 justify-center">
         {content.map((data) => (
           <li key={data.id}>
-            <div className="relative border-[3px] border-[#01121A] min-h-[60vh] w-[25vw] p-4 flex gap-2 flex-col items-center bg-white mb-8">
-              <div className="w-full h-[36vh] bg-[#C395F4] border-[3px] border-[#01121A] flex justify-center items-center">
+            <div className="relative border-[3px] border-[#01121A] min-h-[40vh] lg:min-h-[60vh] lg:w-[25vw] w-[75vw] p-4 flex gap-2 flex-col items-center bg-white mb-8">
+              <div className="w-full h-[20vh] lg:h-[36vh] bg-[#C395F4] border-[3px] border-[#01121A] flex justify-center items-center">
                 <img src={data.image} />
               </div>
               <h1 className="text-3xl uppercase font-semibold">
@@ -58,11 +60,11 @@ const Highlights = () => {
       </ul>
       <img
         src="/images/highlight-images/sticker1.png"
-        className="absolute z-10 right-[-1px] top-[-26vh]"
+        className="absolute z-10 right-[-1px] w-[30vw] lg:w-[25vw] top-[-10vh] lg:top-[-26vh]"
       />
       <img
         src="/images/highlight-images/sticker2.png"
-        className="absolute z-10 left-[-1px] bottom-[-50vh]"
+        className="absolute z-10 left-[-1px] w-[30vw] lg:w-[25vw] bottom-[-40vh] lg:bottom-[-50vh]"
       />
     </section>
   );

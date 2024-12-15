@@ -44,7 +44,7 @@ const Highlights = () => {
           <li key={data.id}>
             <div className="relative border-[3px] border-[#01121A] min-h-[40vh] lg:min-h-[60vh] lg:w-[25vw] w-[75vw] p-4 flex gap-2 flex-col items-center bg-white mb-8">
               <div className="w-full h-[20vh] lg:h-[36vh] bg-[#C395F4] border-[3px] border-[#01121A] flex justify-center items-center">
-                <img src={data.image} />
+                <img src={data.image} className="w-[40vw] lg:w-[15vw]" />
               </div>
               <h1 className="text-3xl uppercase font-semibold">
                 {data.heading}

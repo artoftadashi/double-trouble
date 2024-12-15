@@ -15,12 +15,12 @@ export default function Header() {
   };
   useEffect(() => {
     if (isOpen) {
-      document.body.classList.add("overflow-y-hidden");
+      document.documentElement.classList.add("overflow-y-hidden");
     } else {
-      document.body.classList.remove("overflow-y-hidden");
+      document.documentElement.classList.remove("overflow-y-hidden");
     }
     return () => {
-      document.body.classList.remove("overflow-y-hidden");
+      document.documentElement.classList.remove("overflow-y-hidden");
     };
   }, [isOpen]);
 

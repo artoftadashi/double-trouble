@@ -11,21 +11,25 @@ export default function Sponsors() {
   ];
 
   return (
-    <section className="bg-[#9ddcf9] flex flex-col justify-center items-center py-32 gap-32">
-      <h1 className=" text-5xl font-semibold font-serif text-center">
+    <section className="bg-[#9ddcf9] flex flex-col justify-center items-center py-24 lg:py-32 gap-24 lg:gap-32">
+      <h1 className=" text-3xl lg:text-5xl font-semibold font-serif text-center">
         Join Our League Of Sponsors
       </h1>
-      <div className="flex flex-col gap-32 justify-center items-center">
-        <img className="w-[45vw]" src="/images/sponsors/smirnoff.svg" alt="" />
-        <ul className="grid grid-cols-3 gap-8">
+      <div className="flex flex-col gap-8 lg:gap-32 justify-center items-center">
+        <img
+          className=" w-[90vw] lg:w-[45vw]"
+          src="/images/sponsors/smirnoff.svg"
+          alt=""
+        />
+        <ul className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {images.map((content) => (
             <li key={content.id}>
-              <img src={content.image} className="w-[30vw]" />
+              <img src={content.image} className=" w-[90vw] lg:w-[30vw]" />
             </li>
           ))}
         </ul>
-        <Button text="become a sponsor" />
       </div>
+      <Button text="become a sponsor" />
     </section>
   );
 }

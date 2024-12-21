@@ -64,7 +64,7 @@ const Highlights = () => {
       />
       <img
         src="/images/highlight-images/sticker2.png"
-        className="absolute z-10 left-[-1px] w-[30vw] lg:w-[25vw] bottom-[-40vh] lg:bottom-[-50vh]"
+        className="absolute z-10 left-[-1px] w-[30vw] lg:w-[25vw] bottom-[-20vh] lg:bottom-[-50vh]"
       />
     </section>
   );
